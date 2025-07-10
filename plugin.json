@@ -1,47 +1,73 @@
 {
-  "name": "plugin-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/plugin-sample",
-  "version": "0.4.0",
+  "name": "ticktick-shortcut",
+  "author": "Xinjian Zhang",
+  "url": "https://github.com/Xinjian-Zhang/siyuan-plugin-ticktick-shortcut", 
+  "version": "1.0.0",
   "minAppVersion": "3.1.27",
   "backends": [
     "windows",
     "linux",
-    "darwin",
-    "ios",
-    "android",
-    "harmony",
-    "docker"
+    "darwin"
   ],
   "frontends": [
     "desktop",
-    "mobile",
-    "browser-desktop",
-    "browser-mobile",
-    "desktop-window"
+    "browser-desktop"
   ],
   "displayName": {
-    "default": "Plugin Sample",
-    "zh_CN": "插件示例"
+    "default": "TickTick Shortcut",
+    "ar_SA": "اختصار TickTick",
+    "de_DE": "TickTick-Verknüpfung",
+    "es_ES": "Acceso directo a TickTick",
+    "en_US": "TickTick Shortcut",
+    "fr_FR": "Raccourci TickTick",
+    "zh_CN": "滴答快捷方式",
+    "zh_CHT": "滴答快捷方式",
+    "he_IL": "קיצור דרך ל-TickTick",
+    "it_IT": "Collegamento TickTick",
+    "ja_JP": "TickTickショートカット",
+    "pl_PL": "Skrót TickTick",
+    "pt_BR": "Atalho TickTick",
+    "ru_RU": "Ярлык TickTick"
   },
   "description": {
-    "default": "This is a plugin sample",
-    "zh_CN": "这是一个插件示例"
+    "default": "Adds a shortcut button to open TickTick app.",
+    "ar_SA": "إضافة زر اختصار لفتح تطبيق TickTick.",
+    "de_DE": "Fügt eine Verknüpfungsschaltfläche zum Öffnen der TickTick-App hinzu.",
+    "en_US": "Adds a shortcut button to open TickTick app.",
+    "es_ES": "Añade un botón de acceso directo para abrir la aplicación TickTick.",
+    "fr_FR": "Ajoute un bouton de raccourci pour ouvrir l'application TickTick.",
+    "he_IL": "מוסיף כפתור קיצור לפתיחת אפליקציית TickTick.",
+    "it_IT": "Aggiunge un pulsante di collegamento per aprire l'app TickTick.",
+    "ja_JP": "TickTickアプリを開くためのショートカットボタンを追加します。",
+    "pl_PL": "Dodaje przycisk skrótu do otwierania aplikacji TickTick.",
+    "pt_BR": "Adiciona um botão de atalho para abrir o aplicativo TickTick.",
+    "ru_RU": "Добавляет кнопку ярлыка для открытия приложения TickTick.",
+    "zh_CHT": "添加一個用於啟動滴答清單的快捷按鈕",
+    "zh_CN": "添加一个用于启动滴答清单的快捷按钮"
   },
   "readme": {
-    "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "default": "README.md"
   },
-  "funding": {
-    "openCollective": "",
-    "patreon": "",
-    "github": "",
-    "custom": [
-      "https://ld246.com/sponsor"
-    ]
-  },
+  "i18n": {
+  "ar_SA": "i18n/ar_SA.json",
+  "de_DE": "i18n/de_DE.json",
+  "en_US": "i18n/en_US.json",
+  "es_ES": "i18n/es_ES.json",
+  "fr_FR": "i18n/fr_FR.json",
+  "he_IL": "i18n/he_IL.json",
+  "it_IT": "i18n/it_IT.json",
+  "ja_JP": "i18n/ja_JP.json",
+  "pl_PL": "i18n/pl_PL.json",
+  "pt_BR": "i18n/pt_BR.json",
+  "ru_RU": "i18n/ru_RU.json",
+  "zh_CHT": "i18n/zh_CHT.json",
+  "zh_CN": "i18n/zh_CN.json"
+},
+  "icon": "icon.png",
+  "main": "index.js",
   "keywords": [
-    "sample",
-    "示例"
+    "ticktick",
+    "shortcut",
+    "productivity"
   ]
 }
